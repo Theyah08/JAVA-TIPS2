@@ -85,8 +85,8 @@ public class NumberGuessingGame {
                     System.out.println("\nSelect difficulty level:");
                     System.out.println("1. Easy (1-50, 15 attempts)");
                     System.out.println("2. Medium (1-100, 10 attempts)");
-                    System.out.println("3. Hard (1-200, 8 attempts)");
-                    System.out.println("4. Expert (1-500, 5 attempts)");
+                    System.out.println("3. Hard (1-150, 6 attempts)");
+                    System.out.println("4. Expert (1-200, 3 attempts)");
 
                     while (difficultyLevel < 1 || difficultyLevel > 4) {
                         // While the value of difficultyLevel is less than 1 OR greater than 4, continue prompting the user to enter a valid number between 1 and 4
@@ -100,8 +100,8 @@ public class NumberGuessingGame {
                             switch (difficultyLevel) {
                                 case 1: maxNumber = 50; maxAttempts = 15; break;
                                 case 2: maxNumber = 100; maxAttempts = 10; break;
-                                case 3: maxNumber = 200; maxAttempts = 8; break;
-                                case 4: maxNumber = 500; maxAttempts = 5; break;
+                                case 3: maxNumber = 150; maxAttempts = 6; break;
+                                case 4: maxNumber = 200; maxAttempts = 3; break;
                             }
                         } else {
                             System.out.println("Invalid input!");
