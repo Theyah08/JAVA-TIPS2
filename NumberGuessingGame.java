@@ -35,7 +35,7 @@ public class NumberGuessingGame {
             System.out.println("2. Play Game");
             System.out.println("3. Clear Statistics");
             System.out.println("4. Exit");
-            System.out.print("Enter your choice (1-3): ");
+            System.out.print("Enter your choice (1-4): ");
             
             int choice = -1; 
             // This sets up a variable called 'choice' to hold the user's menu choice. It's starting at -1 as a default value.
@@ -85,8 +85,8 @@ public class NumberGuessingGame {
                     System.out.println("\nSelect difficulty level:");
                     System.out.println("1. Easy (1-50, 15 attempts)");
                     System.out.println("2. Medium (1-100, 10 attempts)");
-                    System.out.println("3. Hard (1-200, 8 attempts)");
-                    System.out.println("4. Expert (1-500, 5 attempts)");
+                    System.out.println("3. Hard (1-150, 7 attempts)");
+                    System.out.println("4. Expert (1-200, 4 attempts)");
 
                     while (difficultyLevel < 1 || difficultyLevel > 4) {
                         // While the value of difficultyLevel is less than 1 OR greater than 4, continue prompting the user to enter a valid number between 1 and 4
